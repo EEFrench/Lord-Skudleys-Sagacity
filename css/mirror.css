@@ -1,0 +1,19 @@
+body { 
+    margin: 0 auto;
+    /* width: 300px; */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+  .main p{
+    font-family: "French's Asylum";
+    src="./fonts/FrenchsAsylum.otf";text-align: center;
+    text-decoration: none;
+    color: #ffa202;
+    text-shadow: 2px 2px #340146; 
+    font-size: 50px;  
+  }
