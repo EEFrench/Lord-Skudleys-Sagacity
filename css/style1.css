@@ -4,19 +4,33 @@ body{
     /* background-image: url(../img/Background.png) */
 }
 
+#main{
+  margin-left: 160px;
+}
+
+.brand{
+  font-family: "French's Asylum";
+  color: #ffa202;
+}
+
+.brand-2{
+  font-family: EEF;
+  color: #ffa202;
+}
+
+
 /* HEADER  */
-  .topbar input[type=text]{
+  /* .topbar input[type=text]{
     float: right;
     padding: 6px;
     border: none;
     margin-top: 8px;
     margin-right: 16px; 
-    font-size: 17px;
+    font-size: 17px; */
   }
 
-  topbar{
+  /* topbar{
     display: flex;
-    /* position: fixed; */
     padding: 0px 0px;
     background-color: #9A01CD;
     margin-left: 160px;
@@ -32,8 +46,7 @@ body{
     text-decoration: none;
     color: #ffa202;
     text-shadow: 2px 2px #340146;
-    /* border: 5px solid #ffa202 */
-  }
+  } */
   
   .topbar a{
     float: none;
@@ -99,9 +112,8 @@ body{
     background-color: #340146;
     overflow-x: hidden;
     padding-top: 20px;
-    /* padding: 10px; */
     text-shadow: 2px 2px #9a01cd;
-    /* border: 5px solid #ffa202 */
+    font-family: "HeadlineFA";
   }
 
   .sidenav .navlink{
