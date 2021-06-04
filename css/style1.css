@@ -4,10 +4,21 @@ body{
     /* background-image: url(../img/Background.png) */
 }
 
-#main{
+/* #main{
   margin-left: 160px;
-}
+} */
 
+.sidebar {
+  width: 180px;
+  }
+  
+  @media (min-width: 768px) {
+  .main {
+  padding-right: 40px;
+  padding-left: 220px; /* 180 + 40 */
+  }
+  }
+  
 .brand{
   font-family: "French's Asylum";
   color: #ffa202;
