@@ -1,0 +1,96 @@
+body{
+    margin: 10px;
+   font-family: HeadlineFA;
+  }
+  
+  .main{
+    margin-left: 160px;
+  }
+  
+  /*NAVBAR*/
+  .sidenav{
+    height: 100%;
+    width: 175px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #340146;
+    overflow-x: hidden;
+    padding-top: 20px;
+    /* padding: 10px; */
+    text-shadow: 2px 2px #9a01cd;
+    /* border: 5px solid #ffa202 */
+  }
+  
+  .sidenav .navlink{
+    padding: 6px 8px 6px 16px;
+  }
+  
+  .sidenav input{
+    width:90%;
+  }
+  
+  .sidenav img:hover {
+    content: url(../img/Home.png);
+  }
+  
+  .sidenav a {
+    /* padding: 6px 8px 6px 16px; */
+    font-family: 'HeadlineFA';
+    /* src="./fonts/HeadlineFA.otf";  */
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    display: block;
+    /* font-family: "Headline FA";
+    src="./fonts/HeadlineFA.otf"; 
+    text-decoration: none;
+    font-size: 18px; */
+    color: whitesmoke;
+    display: block;
+  }
+    
+  .sidenav a:hover {
+    color: #ffa202;
+  }
+  
+  .nav-item, .nav-link{
+   font-family: HeadlineFA;
+   font-size:large;
+   color: whitesmoke;
+  }
+  
+  h1{
+   font-family: HeadlineFA;
+  }
+  
+  .display-4{
+    font-family: "French's Asylum";
+    color: #ffa202;
+    }
+  
+  .lead{
+    font-family: EEFBolder;
+    color: #340146;
+  }
+  h2{
+   font-family: Bookman Caps;
+  }
+  
+  .col{
+   font-family: 'Libre Baskerville', serif;
+  }
+  
+  .brand{
+   font-family: "French's Asylum";
+   color: #ffa202;
+   font-size: xx-large;
+  }
+  
+  .footer{
+    font-family: "French's Asylum";
+    color: #9a01cd;
+    font-size: xx-large;
+   }
+   
