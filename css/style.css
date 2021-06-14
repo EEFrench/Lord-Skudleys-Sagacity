@@ -1,96 +1,122 @@
-body{
-    margin: 10px;
-   font-family: HeadlineFA;
-  }
+body, html {
+  height: 100%;
+}
+
+.brand{
+  font-family: "Lord Skudley";
+  color: #ffa202;
+}
+
+.nav-item, .nav-link{
+  font-family: "Sagacity Caps";
+  color:#ffa202 !important;
+}
+/* PARALAX SCROLLING
+.parallax {
+  The image used
+  background-image: url(../img/LS_Sagacity.Banner.jpg);
+  Full height
+  height: 100%; 
+  Create the parallax scrolling effect
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  background-image: url(../img/Black_Feather\ Flag.jpg);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 {
+  background-image: url(../img/Eebyrtagh.jpg);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-4 {
   
-  .main{
-    margin-left: 160px;
-  }
-  
-  /*NAVBAR*/
-  .sidenav{
-    height: 100%;
-    width: 175px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #340146;
-    overflow-x: hidden;
-    padding-top: 20px;
-    /* padding: 10px; */
-    text-shadow: 2px 2px #9a01cd;
-    /* border: 5px solid #ffa202 */
-  }
-  
-  .sidenav .navlink{
-    padding: 6px 8px 6px 16px;
-  }
-  
-  .sidenav input{
-    width:90%;
-  }
-  
-  .sidenav img:hover {
-    content: url(../img/Home.png);
-  }
-  
-  .sidenav a {
-    /* padding: 6px 8px 6px 16px; */
-    font-family: 'HeadlineFA';
-    /* src="./fonts/HeadlineFA.otf";  */
-    text-decoration: none;
-    font-size: 18px;
-    color: whitesmoke;
-    display: block;
-    /* font-family: "Headline FA";
-    src="./fonts/HeadlineFA.otf"; 
-    text-decoration: none;
-    font-size: 18px; */
-    color: whitesmoke;
-    display: block;
-  }
-    
-  .sidenav a:hover {
-    color: #ffa202;
-  }
-  
-  .nav-item, .nav-link{
-   font-family: HeadlineFA;
-   font-size:large;
-   color: whitesmoke;
-  }
-  
-  h1{
-   font-family: HeadlineFA;
-  }
-  
-  .display-4{
-    font-family: "French's Asylum";
-    color: #ffa202;
-    }
-  
-  .lead{
-    font-family: EEFBolder;
-    color: #340146;
-  }
-  h2{
-   font-family: Bookman Caps;
-  }
-  
-  .col{
-   font-family: 'Libre Baskerville', serif;
-  }
-  
-  .brand{
-   font-family: "French's Asylum";
-   color: #ffa202;
-   font-size: xx-large;
-  }
-  
-  .footer{
-    font-family: "French's Asylum";
-    color: #9a01cd;
-    font-size: xx-large;
-   }
-   
+  background-image: url(../img/Crew.1.jpg);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-5 {
+  The image used
+  background-image: url(../img/1.Mustange\ Isles\ Color.JPG);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* FOOTER  */
+.footer{
+  font-family: "Sagacity Caps";
+}
+
+.p1, .p2, .p3, .p4 {
+  font-family: "Lord Skudley";
+}
+
+.p1 a{
+  font-family: "Sagacity";
+}
+
+
+.p2 p{
+  font-family: "Indy";
+}
+
+.p3{
+  color: whitesmoke;
+}
+.p3 a{
+  font-family: "Stonecross";
+  color: whitesmoke
+}
+
+.p4{
+  color: whitesmoke
+}
+.p4 a{
+  font-family:"Goonies";
+  color: whitesmoke
+}
+/* SOCIAL MEDIA STYLING */  
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
