@@ -1,16 +1,23 @@
 body, html {
   height: 100%;
+  background-color: #4d0f58;
 }
-
+/* NAVBAR  */
 .brand{
   font-family: "Lord Skudley";
-  color: #ffa202;
+  color: #fe0000;
 }
 
 .nav-item, .nav-link{
   font-family: "Sagacity Caps";
   color:#ffa202 !important;
 }
+
+/* JUMBOTRON/HERO IMAGE  */
+.jumbotron{
+background-image: url(../img/LS_Sagacity.Banner.jpg);
+}
+
 /* PARALAX SCROLLING
 .parallax {
   The image used
