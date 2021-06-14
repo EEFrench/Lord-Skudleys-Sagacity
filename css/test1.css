@@ -1,48 +1,80 @@
-html, body { height: 100%; }
-body {
-  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
-  overflow: hidden;
+body, html {
+  height: 100%;
+  background-color: #4d0f58;
+}
+/* NAVBAR  */
+.nav-item, .nav-link{
+  font-family: "Sagacity Caps";
+  color: #340146 !important;
 }
 
-.ocean { 
-  height: 5%;
-  width:100%;
-  position:absolute;
-  bottom: 0;
-  left:0;
-  background: #015871;
+/* TEXT BOX  */
+.caption {
+  width: 50%;
+  position:-ms-page;
+  top: 50%;
+  left: 50%;
+  margin: 0 0 0 0;
+  transform: translate(-50%, -50%);
+  opacity: 0.50;
+  background-color: #340146;  
 }
 
-.wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
-  position: absolute;
-  top: -198px;
-  width: 6400px;
-  height: 198px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
+/* FOOTER  */
+.footer{
+  font-family: "Sagacity Caps";
 }
 
-.wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
+.p1, .p2, .p3, .p4 {
+  font-family: "Lord Skudley";
 }
 
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
+.p1 a{
+  font-family: "Sagacity";
 }
 
-@keyframes swell {
-  0%, 100% {
-    transform: translate3d(0,-25px,0);
-  }
-  50% {
-    transform: translate3d(0,5px,0);
-  }
+
+.p2 p{
+  font-family: "Indy";
 }
+
+.p3{
+  color: whitesmoke;
+}
+.p3 a{
+  font-family: "Stonecross";
+  color: whitesmoke
+}
+
+.p4{
+  color: whitesmoke
+}
+.p4 a{
+  font-family:"Goonies";
+  color: whitesmoke
+}
+/* SOCIAL MEDIA STYLING */  
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
