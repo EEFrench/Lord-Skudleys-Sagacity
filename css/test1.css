@@ -1,31 +1,60 @@
 body, html {
   height: 100%;
   background-color: #4d0f58;
+  height: 5000px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-/* NAVBAR  */
-.nav-item, .nav-link{
+
+.topnav {
+  position: sticky;
+  overflow: hidden;
+  background-color:#c65c29;
+  position: sticky;
   font-family: "Sagacity Caps";
   color: #340146 !important;
 }
 
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white;
+}
+
 /* BG IMAGE  */
 .bg-image {
-  width: 100%;
-  height: 400px;
-  background-image: url('../img/Family_Crest.png');
-  background-size: cover;
+
+  z-index: 0;
 }
 
 /* TEXT BOX  */
 .caption {
   width: 50%;
-  position:-ms-page;
   top: 50%;
   left: 50%;
   margin: 0 0 0 0;
-  transform: translate(-50%, -50%);
-  opacity: 0.50;
-  background-color: #340146;  
+  /* transform: translate(-50%, -50%); */
+  background-color: rgba(78, 15, 107, 0.322);  
+  z-index: 5;
 }
 
 /* FOOTER  */
