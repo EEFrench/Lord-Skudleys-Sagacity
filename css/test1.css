@@ -13,6 +13,7 @@ body, html {
   position: sticky;
   font-family: "Sagacity Caps";
   color: #340146 !important;
+  /* padding: 15px; */
 }
 
 .topnav #myLinks {

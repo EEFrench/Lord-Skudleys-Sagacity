@@ -1,0 +1,18 @@
+@import url(./test1.css);
+
+.navbar {
+    position: sticky;
+    overflow: hidden;
+    background-color:#c65c29;
+    position: sticky;
+    font-family: "Sagacity Caps";
+    color: #340146 !important;
+  }
+
+  .seal{
+      align-self: flex-end;
+  }
+
+  .main{
+      padding-top: 35px;
+  }
