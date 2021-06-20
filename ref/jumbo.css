@@ -1,18 +1,6 @@
-body, html {
-    height: 100%;
-    background-color: #4d0f58;
-    /* height: 5000px; */
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  /* HERO IMAGE  */
-  #branding image{
-    height: auto;
-    display: block;
-    width: 100%;
-  }
-  
-  /* JUMBOTRON */
+@import url(./style.css);
+
+/* JUMBOTRON */
   .jumbotron {
     /* background: url("../img/LS_Sagacity.Banner.jpg") no-repeat center center; */
     background-repeat: no-repeat;
