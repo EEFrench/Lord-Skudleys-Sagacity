@@ -59,10 +59,7 @@ body, html {
 .caption {
   font-family: "Sagacity";
   width: 100%;
-  /* top: 50%;
-  left: 50%; */
   margin: 0 0 0 0;
-  /* transform: translate(-50%, -50%); */
   background-color: rgba(78, 15, 107, 0.623);  
   z-index: 5;
 }
