@@ -5,30 +5,6 @@ body, html {
   padding-left: 25px;
   padding-right: 25px;
 }
-/* HERO IMAGE  */
-#branding image{
-  height: auto;
-  display: block;
-  width: 100%;
-}
-
-/* JUMBOTRON */
-.jumbotron {
-  /* background: url("../img/LS_Sagacity.Banner.jpg") no-repeat center center; */
-  background-repeat: no-repeat;
-  background-size:cover;
-  width: auto;
- }
-
-#jumbo h1{
-  font-family: "Lord Skudley";
-  color: #fe0000;
-}
-
-#jumbo h2{
-  font-family: "Sagacity";
-  color: #fe0000;
-}
 
 /* NAVBAR */
 .topnav {
@@ -99,9 +75,6 @@ body, html {
   background-color: rgba(78, 15, 107, 0.623);  
   z-index: 5;
 }
-
-
-
 
 /* FOOTER  */
 .footer{
