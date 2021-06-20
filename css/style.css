@@ -50,16 +50,10 @@ body, html {
   background-repeat:no-repeat;
 }
 
-
-
 /* TEXT BOXES  */
 #skudley h2{
   font-family: "lord Skudley";
   color: #ffa202;
-}
-
-#skudley p{
-  
 }
 
 .caption {
@@ -102,7 +96,6 @@ body, html {
   background: #125688;
   color: white;
 }
-
 
 .fa-pinterest {
   background: #cb2027;
