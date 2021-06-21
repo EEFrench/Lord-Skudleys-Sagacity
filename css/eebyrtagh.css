@@ -1,18 +1,16 @@
 @import url(./style.css);
 
-.navbar {
-    position: sticky;
-    overflow: hidden;
-    background-color:#c65c29;
-    position: sticky;
-    font-family: "Sagacity Caps";
-    color: #340146 !important;
-  }
+.card{
+    color: #340146
+}
 
-  .seal{
-      align-self: flex-end;
-  }
-
-  .main{
-      padding-top: 35px;
-  }
+#thumb {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+  
+#thumb:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
