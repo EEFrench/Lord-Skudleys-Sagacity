@@ -4,6 +4,7 @@
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
+  background-color: rgba(21, 61, 126, 0.637);
 }
 
 h2{
@@ -11,7 +12,7 @@ h2{
   color: #ffa202
 }
 
-.form-group{
+.form-group, button{
   font-family: "Indy";
   color: #fe0000;
 }

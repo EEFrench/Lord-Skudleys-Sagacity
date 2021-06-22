@@ -1,3 +1,6 @@
+@import url("../css/style.css");
+@import url("../css/eebyrtagh.css");
+
 #flipscreen {
     width: 100%;
     height: 100%;
@@ -8,7 +11,7 @@
     transform: rotate(180deg);
 }
 
-.main p{
+body{
     font-family: "French's Asylum";
     src="./fonts/FrenchsAsylum.otf";text-align: center;
     text-decoration: none;
