@@ -1,1 +1,12 @@
 @import url("../css/style.css");
+
+/* BACKGROUND IMAGE  */
+.bg-image {
+    background-attachment: fixed;
+    background-position:bottom;
+    opacity: .7;
+    margin: 100px;
+    width: auto;
+    background-image: url("../img/Mustange/BG_Map.png");
+    background-repeat:no-repeat;
+  }
