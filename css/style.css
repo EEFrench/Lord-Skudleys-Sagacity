@@ -43,7 +43,6 @@ body, html {
 .bg-image {
   background-attachment: fixed;
   background-position:bottom;
-  opacity: .7;
   margin: 100px;
   width: auto;
   background-image: url("../img/Family_Crest.png");
@@ -60,7 +59,7 @@ body, html {
   font-family: "Sagacity";
   width: 100%;
   margin: 0 0 0 0;
-  background-color: rgba(78, 15, 107, 0.623);  
+  background-color: rgba(78, 15, 107, 0.65);  
   z-index: 5;
 }
 
