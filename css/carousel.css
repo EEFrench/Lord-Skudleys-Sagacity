@@ -1,18 +1,6 @@
 @import url("../css/style.css");
 
-#p1{
-    font-family: "Lord Skudley";
-}
-
-#p2{
-    font-family: "Stonecross";
-}
-
-#p5{
-    font-family: "Trade Winds";
-}
-
-#skudley, #tb2 h2{
+#skudley h2{
     font-family: "Indy";
     background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
     -webkit-background-clip: text;
@@ -23,10 +11,6 @@
     font-family: "EEF";
 }
 
-#tb2 h3{
-    font-family: "Lord Skudley";
-    color: #fe0000;
-}
 
 /* CARD  */
 .card{

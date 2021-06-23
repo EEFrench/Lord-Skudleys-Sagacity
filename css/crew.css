@@ -7,17 +7,26 @@
     background-color: rgba(21, 61, 126, 0.637);
   }
 
+#title{
+    background-color: #c55911;
+    font-family: "Sagacity Caps";
+    color: white;
+
+}
 .table{
     background-color: white;
-    font-family: ;
+    font-family: "Caslon Antique";
 }
 
 .table:nth-of-type(even){
     background-color: #ffc000;
 }
 
-#title{
-    background-color: #c55911;
-    font-family: "Sagacity Caps";
-    color: white;
+#skudley h2{
+    font-family: "Goonies";
+    color: yellow;
+}
+
+#skudley p{
+    font-family: Papyrus;
 }
