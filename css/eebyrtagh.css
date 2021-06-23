@@ -21,6 +21,14 @@ h3{
     background-color: orange;
     color: #340146;
   }
+
+  .card-title{
+      font-family: "Freebooter";
+  }
+  
+  .card-text{
+      font-family: "Sagacity";
+  }
   
   #thumb {
     border: 1px solid #ddd;

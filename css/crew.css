@@ -42,6 +42,15 @@
     background-color: #002a53;
     color: #ffa202;
   }
+
+  .card-title{
+    font-family: "Freebooter";
+}
+
+.card-text{
+    font-family: "Sagacity";
+}
+
   
   #thumb {
     border: 1px solid #ddd;
