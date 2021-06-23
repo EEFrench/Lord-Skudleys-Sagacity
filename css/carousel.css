@@ -23,6 +23,15 @@ h3{
     color: #340146
   }
   
+  .card-title{
+    font-family: "Freebooter";
+}
+
+.card-text{
+    font-family: "Sagacity";
+}
+
+
   #thumb {
     border: 1px solid #ddd;
     border-radius: 4px;
