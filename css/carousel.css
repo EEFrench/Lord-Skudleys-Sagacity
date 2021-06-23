@@ -1,10 +1,15 @@
 @import url("../css/style.css");
 
-#skudley h2{
+#skudley h2, h2{
     font-family: "Indy";
     background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h3{
+    font-family: "Lord Skudley";
+    color: #fe0000;
 }
 
 #skudley, #tb2 p{
