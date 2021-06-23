@@ -1,0 +1,23 @@
+@import url("../css/style.css");
+
+#table{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(21, 61, 126, 0.637);
+  }
+
+.table{
+    background-color: white;
+    font-family: ;
+}
+
+.table:nth-of-type(even){
+    background-color: #ffc000;
+}
+
+#title{
+    background-color: #c55911;
+    font-family: "Sagacity Caps";
+    color: white;
+}
