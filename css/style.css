@@ -55,6 +55,11 @@ body, html {
   color: #ffa202;
 }
 
+h3{
+  font-family: "Sagacity Caps";
+  color: #fe0000;
+}
+
 .caption {
   font-family: "Sagacity";
   width: 100%;
@@ -62,6 +67,24 @@ body, html {
   background-color: rgba(78, 15, 107, 0.65);  
   z-index: 5;
 }
+
+#tb2 h2{
+  font-family: "Indy";
+  background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tb2 h3{
+  font-family: "Lord Skudley";
+  color: #fe0000;
+}
+
+#tb2 p{
+  font-family: "EEF";
+}
+
+
 
 /* FOOTER  */
 .footer{

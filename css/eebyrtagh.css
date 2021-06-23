@@ -1,5 +1,21 @@
 @import url(./style.css);
 
+#tb2 h2{
+    font-family: "Indy";
+    background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3{
+    font-family: "Lord Skudley";
+    color: #fe0000;
+}
+
+#tb2 p{
+    font-family: "EEF";
+}
+
 /* CARD  */
 .card{
     background-color: orange;
