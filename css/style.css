@@ -52,6 +52,7 @@ body, html {
 /* TEXT BOXES  */
 #skudley h2{
   font-family: "lord Skudley";
+  src: url(../fonts/Lord\ Skudley.otf);
   color: #ffa202;
 }
 
