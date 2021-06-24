@@ -56,10 +56,10 @@ h3{
   #myImg:hover {opacity: 0.7;}
   
   /* POPUP  */
-  /* .modal {
+  .modal {
     display: none; 
     position: fixed; 
-    z-index: 100;
+    /* z-index: 100; */
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -68,7 +68,7 @@ h3{
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
-  } */
+  }
   
   /* Modal Content */
   .modal-content {
