@@ -1,7 +1,7 @@
-@import url(https://github.com/EEFrench/Git-Fonts);
-@import url(https://github.com/EEFrench/Git-Fonts/blob/master/Lord-Skudley.otf);
-@import url(../fonts/Lord-Skudley.otf);
-@import url(../fonts/);
+@import url(https://github.com/EEFrench/Git-Fonts.git);
+/* @import url(https://github.com/EEFrench/Git-Fonts/blob/master/Lord-Skudley.otf); */
+/* @import url(../fonts/Lord-Skudley.otf);
+@import url(../fonts/); */
 
 body, html {
   background-color: #4d0f58;
@@ -45,14 +45,14 @@ body, html {
 }
 
 /* BACKGROUND IMAGE  */
-.bg-image {
+/* .bg-image {
   background-attachment: fixed;
   background-position:bottom;
   margin: 100px;
   width: auto;
   background-image: url("../img/Family_Crest.png");
   background-repeat:no-repeat;
-}
+} */
 
 /* TEXT BOXES  */
 #skudley h2{
