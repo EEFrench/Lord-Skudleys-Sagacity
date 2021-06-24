@@ -23,8 +23,15 @@ h3{
     color: #340146
   }
   
-  .card-title{
+.card-title{
     font-family: "Freebooter";
+}
+
+.modal-footer {
+    font-family: "Indy";
+    font-size: xx-large;
+    background-color: orange;
+    color: yellow;
 }
 
 .card-text{
