@@ -147,24 +147,14 @@
           </div>
         </div>
       </div>  
-    <!-- Video -->
-    <div class="p-2 m-1">
-      <div class="card" style="height: 24rem;">
-        <div class="card-body">
-          <video width="620" height="auto" controls muted>
-          <source src="./video/20210606_183153.mp4" type="video/mp4">
-          <h4 class="card-title">Game Day</h4>
-          <p class="card-text">The Captian's Quarters layout..</p>
-      </div>
-    </div>
-  </div>  
+    
 
- <!-- IMG
-    <div class="p-2 m-1">
-        <button class="myBtn_multi"><img id="myImg" src="./img/CC_CD.JPEG" alt="Snow" style="width:100%;max-width:300px"></button>
-        <h5 class="card-title">Blueprint 4</h5>
-        <p class="card-text">The Captian's Quarters layout..</p>
-    </div> -->   
+      <!-- IMG
+        <div class="p-2 m-1">
+            <button class="myBtn_multi"><img id="myImg" src="./img/CC_CD.JPEG" alt="Snow" style="width:100%;max-width:300px"></button>
+            <h5 class="card-title">Blueprint 4</h5>
+            <p class="card-text">The Captian's Quarters layout..</p>
+        </div> -->   
 
         <!-- Modal 1 -->
         <div class="modal modal_multi">
@@ -211,8 +201,59 @@
               <img src="./img/Game_Day/DSCN1016.JPG" alt="Snow">
           </div>
          </div> -->
+                  <!-- Grid column -->
+          <div class="col-lg-4 col-md-12">
+
+            <div class="p-2 m-1">
+                <div class="card" style="width: 18rem;height: 24rem;">
+                    <div class="card-body">
+                        <!--Modal: Name-->
+                        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+
+                                <!--Content-->
+                                <div class="modal-content">
+
+                                    <!--Body-->
+                                    <div class="modal-body mb-0 p-0">
+
+                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                        <iframe class="embed-responsive-item" src="./video/20210606_183153.mp4" type="video/mp4"
+                                        allowfullscreen></iframe>
+                                        </div>
+
+                                    </div>
+
+                                    <!--Footer-->
+                                    <div class="modal-footer justify-content-center">
+                                        <span class="mr-4">Facing the Kracken!</span>
+                                         <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Modal: Name-->
+
+                        <button class="button"><img id="myImg" src="./img/Game_Day/Kraken.jpg" alt="Kracken" data-toggle="modal" data-target="#modal1" style="width:100%;max-width:300px"></button>
+                        <h4 class="card-title">Facing the Kracken</h4>
+                        <p class="card-text">There in nothing in the sea more fearsom than the Mighty Kracken!</p>
+
+                        <!-- <a><img class="img-fluid z-depth-1" id="#myImg" src="./img/Game_Day/Kraken.jpg" alt="Kracken" data-toggle="modal" data-target="#modal1" tyle="width:100%;max-width:300px"></a>
+                        <h4 class="card-title">Facing the Kracken</h4>
+                        <p class="card-text">One of the myrid strange creatures of Mu'Stagne. Though these Apes may be the reason Mystwatch is in the condition he is in...</p> -->
+                    </div>
+                </div>
+
+
+            </div>             
+          </div>
+
       </div>
       </div>
+      
 
     <!-- SIGNATURE  -->
     <div class="caption d-flex flex-column align-items-center justify-content-center border text-white" id="tb2">
@@ -221,7 +262,9 @@
       <p class="mx-5">AKA: Ed French</p>
     </div>
 
+<!-- END OF BACKGROUND ROW  -->
   </div>
+<!-- END OF BACKGROUND CONTAINER  -->
 </div>
 
 <!-- FOOTER  -->
@@ -321,6 +364,24 @@ normalizeSlideHeights()
   span.onclick = function() {
       modal.style.display = "none";
   }
+</script>
+
+<!-- VIDEO  -->
+<script>
+  $('#modal1').on('hidden.bs.modal', function (e) {
+// do something...
+$('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+});
+
+$('#modal6').on('hidden.bs.modal', function (e) {
+// do something...
+$('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+});
+
+$('#modal4').on('hidden.bs.modal', function (e) {
+// do something...
+$('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+});  
 </script>
 
 </body>
