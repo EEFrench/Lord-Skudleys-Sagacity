@@ -91,6 +91,10 @@ h3{
   font-family: "Sagacity Caps";
 }
 
+.footer a{
+  text-decoration: none;
+}
+
 /* SOCIAL MEDIA STYLING */  
 .fa {
   text-align: center;
@@ -118,5 +122,10 @@ h3{
 
 .fa-pinterest {
   background: #cb2027;
+  color: white;
+}
+
+.french {
+  font-family: "French's Asylum";
   color: white;
 }
