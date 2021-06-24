@@ -1,6 +1,7 @@
-@import url(ttps://github.com/EEFrench/Final-Project-Mobile/blob/main/fonts/Lord%20Skudley.otf);
-@import url(ttps://github.com/EEFrench/Final-Project-Mobile/blob/main/fonts/);
-@import url(../fonts/Lord\ Skudley.otf)
+@import url(https://github.com/EEFrench/Final-Project-Mobile/blob/main/fonts/Lord%20Skudley.otf);
+@import url(https://github.com/EEFrench/Final-Project-Mobile/blob/main/fonts/);
+@import url(../fonts/Lord\ Skudley.otf);
+@import url(../fonts/);
 
 body, html {
   background-color: #4d0f58;
