@@ -1,0 +1,50 @@
+/* PARALAX SCROLLING for REFERENCE
+.parallax {
+  The image used
+  background-image: url(../img/LS_Sagacity.Banner.jpg);
+  Full height
+  height: 100%; 
+  Create the parallax scrolling effect
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  background-image: url(../img/Black_Feather\ Flag.jpg);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 {
+  background-image: url(../img/Eebyrtagh.jpg);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-4 {
+  
+  background-image: url(../img/Crew.1.jpg);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-5 {
+  The image used
+  background-image: url(../img/1.Mustange\ Isles\ Color.JPG);
+  height: 75%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
