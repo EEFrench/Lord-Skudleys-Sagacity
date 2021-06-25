@@ -91,14 +91,15 @@
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    /* width: 80%; */
-    /* height: auto; */
+    width: 80%;
+    height: auto;
   }
   
   /* The Close Button */
   .close {
     color: #aaaaaa;
     float: right;
+    font-family: "Lord Skudley";
     font-size: 28px;
     font-weight: bold;
   }
