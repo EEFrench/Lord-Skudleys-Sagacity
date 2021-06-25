@@ -3,6 +3,12 @@
   font-family: "Lord Skudley";
   src: url(../fonts/Lord-Skudley.otf);
 }
+@font-face {
+  font-family: "Sagacity";
+  src: url(../fonts/Sagacity.otf);
+  font-family: "Sagacity Caps";
+  src: url(../fonts/Sagacity-Caps.otf);
+}
 
 #table{
     border-radius: 5px;
