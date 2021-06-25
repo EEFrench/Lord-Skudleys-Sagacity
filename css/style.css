@@ -1,62 +1,3 @@
-@font-face {
-  font-family: "Lord Skudley";
-  src: url(../fonts/Lord-Skudley.otf);
-}
-@font-face {
-  font-family: "Sagacity Caps";
-  src: url(../fonts/Sagacity-Caps.otf);
-}
-
-@font-face {
-  font-family: "Sagacity";
-  src: url(../fonts/Sagacity.otf);
-}
-
-@font-face {
-  font-family: "Trade winds";
-  src: url(../fonts/TradeWinds-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Goonies";
-  src: url(../fonts/Goonies.otf);
-}
-
-@font-face {
-  font-family: "French's Asylum";
-  src: url(../fonts/FrenchsAsylum.otf);
-}
-
-@font-face {
-  font-family: "Freebooter";
-  src: url(../fonts/FreebooterUpdated_2.ttf);
-}
-
-@font-face {
-  font-family: "EEF";
-  src: url(../fonts/EEF.otf);
-}
-
-@font-face {
-  font-family: "EEFBolder";
-  src: url(../fonts/EEFBolder.otf);
-}
-
-@font-face {
-  font-family: "Caslon Antique";
-  src: url(../fonts/Caslo-an_1.ttf);
-}
-
-@font-face {
-  font-family: "Indy";
-  src: url(../fonts/Indy.otf);
-}
-
-@font-face {
-  font-family: "Papyrus";
-  src: url(../fonts/papyrus_1.ttf);
-}
-
 body, html {
   background-color: #4d0f58;
   padding-left: 15px;
@@ -188,22 +129,6 @@ h3{
   color: white;
 }
 
-/* @media screen and (min-width: 600px){
-  .carousel{
-      width: 50vw;
-  }
-}
-@media screen and (max-width: 599.8px){
-  .carousel{
-      width: 100vw;
-  }
-}
-@media screen and (max-width: 350px){
-  .logo{
-      width: 90vw;
-  }
-} */
-
 @media screen and (min-width: 601px) {
   .body{
     font-size: 80px;
@@ -214,4 +139,68 @@ h3{
   .body{
     font-size: 30px;
   }
+}
+
+@font-face {
+  font-family: "Lord Skudley";
+  src: url(../fonts/Lord-Skudley.otf);
+}
+@font-face {
+  font-family: "Sagacity Caps";
+  src: url(../fonts/Sagacity-Caps.otf);
+}
+
+@font-face {
+  font-family: "Sagacity";
+  src: url(../fonts/Sagacity.otf);
+}
+
+@font-face {
+  font-family: "Trade winds";
+  src: url(../fonts/TradeWinds-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Goonies";
+  src: url(../fonts/Goonies.otf);
+}
+
+@font-face {
+  font-family: "French's Asylum";
+  src: url(../fonts/FrenchsAsylum.otf);
+}
+
+@font-face {
+  font-family: "Freebooter";
+  src: url(../fonts/FreebooterUpdated_2.ttf);
+}
+
+@font-face {
+  font-family: "EEF";
+  src: url(../fonts/EEF.otf);
+}
+
+@font-face {
+  font-family: "EEFBolder";
+  src: url(../fonts/EEFBolder.otf);
+}
+
+@font-face {
+  font-family: "Caslon Antique";
+  src: url(../fonts/Caslo-an_1.ttf);
+}
+
+@font-face {
+  font-family: "Indy";
+  src: url(../fonts/Indy.otf);
+}
+
+@font-face {
+  font-family: "Papyrus";
+  src: url(../fonts/papyrus_1.ttf);
+}
+
+@font-face {
+  font-family: "Sronecross";
+  src: url(../fonts/Stonecross.otf);
 }

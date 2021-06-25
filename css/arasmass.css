@@ -1,1 +1,6 @@
 @import url("../css/style.css");
+
+#skudley h2{
+    font-family: "Stonecross";
+    color: #002a53;
+}
