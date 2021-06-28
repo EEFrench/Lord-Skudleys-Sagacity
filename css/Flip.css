@@ -10,18 +10,3 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-
-body{
-    font-family: "French's Asylum";
-    src="./fonts/FrenchsAsylum.otf";text-align: center;
-    text-decoration: none;
-    color: #ffa202;
-    text-shadow: 2px 2px #340146; 
-    font-size: 50px;  
-}
-#podcasts p{
-    font-family: 'Libre Baskerville', serif;
-    color: whitesmoke;
-    font-size: 20px;
-    text-align: left;
-}
