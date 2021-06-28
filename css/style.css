@@ -28,7 +28,6 @@ body, html {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
   color: white;
 }
 
@@ -58,20 +57,17 @@ body, html {
   }
 }
 
-/* BACKGROUND IMAGE  */
-/* .bg-image {
-  background-attachment: fixed;
-  background-position:bottom;
-  margin: 100px;
-  width: auto;
-  background-image: url("../img/Family_Crest.png");
-  background-repeat:no-repeat;
-} */
-
 /* TEXT BOXES  */
-#skudley h2{
+h1{
   font-family: "lord Skudley";
   color: #ffa202;
+}
+
+h2{font-family: "Indy";
+  background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
 }
 
 h3{
@@ -92,6 +88,7 @@ h3{
   background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 10px;
 }
 
 #tb2 h3{
@@ -103,7 +100,6 @@ h3{
 #tb2 p{
   font-family: "EEF";
 }
-
 /* FOOTER  */
 .footer{
   font-family: "Sagacity Caps";
