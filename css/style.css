@@ -67,7 +67,7 @@ h2{font-family: "Indy";
   background: -webkit-linear-gradient(#ffa202, #feff1f, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 10px;
+  padding: 8px;
 }
 
 h3{
