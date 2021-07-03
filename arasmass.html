@@ -22,7 +22,7 @@
   <img src="./img/Black_Feather Flag_Banner.jpg" class="img-fluid" alt="Responsive image">
 
 <!-- NAVBAR/HAMBERGER MENU -->
-<div class="topnav" style="background-color: #c65c29;">
+<div class="topnav" style="background-color: #c65c29;" id="myTopnav">
   <div id="myLinks">
     <a class="nav-link" href="./index.html">Home</a>
     <!-- <a class="nav-link" href="./arasmass.html">Arasmass Family</a> -->
@@ -30,19 +30,14 @@
     <a class="nav-link" href="./crew.html">The Crew</a>
     <a class="nav-link" href="./island.html">Mu'Stange Isles</a>
     <a class="nav-link" href="./game.html">The Game</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+  </div>
 </div>
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-</a>
-</div>
-
-<!-- BACKGROUND IMAGE & TEXT BOXES-->
-<!-- <div class="bg-image bg-image-fluid justify-content-center">
-  <div class="row"> -->
 
     <!-- TEXT BOX 1 -->
     <div class="caption container-fluid d-flex flex-column align-items-center justify-content-center border text-white p-5" id ="skudley">
-      <h2> The Family Arasmass</h2>
+      <h1> The Family Arasmass</h1>
           <p>French's Asylum Props-n-Stuff was established in 1985 when Ed's drama teacher said, "We need an old phone for this scene." and Ed replied, "I have one of those."</p>
           <p>"Do you have a doctor's bag?"</p>
           <p>"Yep. Oh, and I have some 'tools' for the villain, poison bottles for the Aunts, a fancy 'Elderberry Wine' bottle and the stemware to go with it. And a bear-trap..." He was credited as "Ed's Prop Shop" for that show. The name "French's Asylum" didn't come along until much later. But that's another story for another time.</p>
@@ -60,10 +55,6 @@
         </div>
       </div>
 
-    <!-- </div> -->
-  <!-- END OF BACKGROUND CONTAINER  -->
-  <!-- </div> -->
-  
 
 <!-- FOOTER  -->
 <div class="row">
@@ -104,19 +95,19 @@ $('.carousel').each(function(){
   items.css('min-height', maxHeight + 'px');
 })
 normalizeSlideHeights()  
-
-// NAVBAR SCRIPT 
 }</Script>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
+
+<!-- NAVBAR SCRIPT NEW  -->
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-    </script> 
+  }
+  </script>
     
 </body>
 </html> 
