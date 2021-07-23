@@ -4,7 +4,6 @@
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
-    background-color: rgba(21, 61, 126, 0.637);
   }
 
 #title{
@@ -14,7 +13,7 @@
 
 }
 .table{
-    background-color: white;
+    background-color: whitesmoke;
     font-family: "Caslon Antique";
 }
 
@@ -24,12 +23,12 @@
 }
 
 .table:nth-of-type(even){
-    background-color: #ffc000;
+    background-color: #ffda30;
 }
 
-#skudley h2{
+#skudley h1{
     font-family: "Goonies";
-    color: yellow;
+    color: Yellow;
 }
 
 #skudley p{
@@ -56,6 +55,7 @@
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+    height: auto;
   }
   
   #thumb:hover {
